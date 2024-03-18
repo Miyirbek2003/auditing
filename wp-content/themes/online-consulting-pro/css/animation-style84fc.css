@@ -1,0 +1,12 @@
+#pagearea .container,
+#welcomearea .container,
+#section1 .container,
+#section2 .container,
+#section3 .ind_col3,
+.planing_leftcontentbox,
+.planing_videobox,
+#section5 .container,
+#section6 .container,
+#section7 .container,
+#section8 .container
+{ visibility:hidden;}
