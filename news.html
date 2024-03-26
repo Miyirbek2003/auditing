@@ -323,7 +323,22 @@ p.read-more a:hover,
 			<li id="menu-item-1656" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1656"><a title="" href="index.html"  onclick="scrollId('services')" class="a_tag">Xizmatlar	</a></li>
             <li id="menu-item-1656" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1656"><a title=""  href="index.html" onclick="scrollId('news')" class="a_tag">Yangiliklar</a></li>
 
-			<li id="menu-item-1657" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1657"><a title="" onclick="scrollId('myclass')" href="index00c2.html" class="a_tag">Auditorlik xulosalari</a></li>
+			<li id="menu-item-1657" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1657"><a title="" onclick="scrollId('myclass')" href="index00c2.html" class="a_tag">Auditorlik xulosalari</a>
+				<ul>
+					
+					<li class="li_item">
+						<a href="/index00c2.html">2021</a>
+					</li>
+					<li class="li_item">
+						<a href="/index00c2.html">2022</a>
+					</li>
+					<li class="li_item">
+						<a href="/index00c2.html">2023</a>
+					</li>
+					<li class="li_item">
+						<a href="/index00c2.html">2024</a>
+					</li>
+				</ul></li>
 			
 
 </ul></div>   
@@ -454,7 +469,7 @@ var wpcf7 = {"api":{"root":"https:\/\/gracethemesdemo.com\/online-consulting\/wp
 <script>
 	async function getTables() {
 		const response = await fetch(`http://127.0.0.1:8000/api/treatments/${localStorage.getItem('newsSlug')}`)
-		const response_list = await fetch(`http://127.0.0.1:8000/api/treatments`)
+		const response_list = await fetch(`https://admin.kkaudit-servis.uz/api/slides`)
 		const data = await response.json();
 		const data_list = await response_list.json();
 		const dataa = data.item
